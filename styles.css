@@ -1,0 +1,30 @@
+
+#DAW{
+    background-color:#00beff;
+} 
+#DIW{
+    background-color: #ff6bff;
+}
+#EIE{
+    background-color: #ff978d;
+}
+#DWEC{
+    background-color: #ffe36e;
+}
+#DWES{
+    background-color: #baffb1;
+}
+#ANG{
+    background-color: #f4bc8e;
+}
+#TUT{
+    background-color: #f8efb8;
+}
+
+#DAW:hover, #DIW:hover,#EIE:hover,#DWEC:hover,#DWES:hover,#ANG:hover,#TUT:hover{
+  scale: 1.1;
+}
+
+h1{
+    text-align: center;
+}
