@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fontsFiles/Roboto/Roboto-Thin.ttf');
+}
+p.roboto {
+    font-family: 'Roboto', fantasy;
+    font-size: 3em;
+}

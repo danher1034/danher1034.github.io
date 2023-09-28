@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Entrena+</title>
+    <link rel="icon" type="image/jpg" href="imagenes/3057260.png"/>
+    <link rel="stylesheet" href="peu de pagina.css">
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <style>
+        fieldset {
+            display: flexbox;
+            text-align: center;
+            padding: 30px 32px;
+        }
+    </style>
+</head>
+
+<body>
+    <ul id="Menu">
+        <li><a class="active" href="perruqueria.html">Inicio</a></li>
+        <li><a href="perruqueria2.html">Entrenamientos</a></li>
+        <li><a href="perruqueria3.html">Productos</a></li>
+        <li><a href="perruqueria4.html">Cita</a></li>    
+        <li class="dropdown">
+            <a class="dropbtn">Más...</a>
+            <div class="dropdown-content">
+              <a href="perruqueria6.html"><span class="material-symbols-outlined" style="font-size:15px;">support_agent</span> Contacta con nosotros</a>
+              <a href="perruqueria5.html"><span class="material-symbols-outlined" style="font-size:15px;">policy</span> AVISO LEGAL</a>
+              <a href="perruqueria7.html"><span class="material-symbols-outlined" style="font-size:15px;">groups</span> Trabajadores</a>            
+            </div>
+        </li>           
+    </ul>
+
+    <div style="padding: 20px; margin-top: 15px; height: 1500px;">
+        <div align="center">
+            <h1>Contacta con nosotros</h1>
+
+            <form action="procesar_formulario.php" method="POST" enctype="multipart/form-data">
+                <!-- Cambia "procesar_formulario.php" por la URL donde procesarás el formulario -->
+
+                <fieldset>
+                    <label for="corts">Asunto:</label>
+                    <select id="corts" name="corts">
+                        <option value="servicio_cliente">Quiero una valoración de mi entrenamiento</option>
+                        <option value="webmaster">Quiero asesoramiento sobre la realización de ejercicio</option>
+                    </select>
+                </fieldset>
+
+                <fieldset>
+                    <label for="fname">Dirección de correo electrónico:</label><br>
+                    <input type="email" id="fname" name="email" required><br>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Sube un video:</legend>
+                    <label for="video">Selecciona un video para subir:</label>
+                    <input type="file" id="video" name="video" accept="video/*" required>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Mensaje:</legend>
+                    <textarea name="message" rows="5" cols="30" required></textarea>
+                </fieldset>
+
+                <fieldset>
+                    <input type="submit" value="Enviar">
+                </fieldset>
+            </form>
+        </div>
+    </div>
+    <div>
+        <hr>
+    <div class="P2">
+        <br>
+        <img src="imagenes/3057260.png" align="left" width="30" height="30"
+            alt="logo">
+        <small id="P1"> &copy;2023<b> Perruqueria Dani </b> Tots els drets reservats </small>
+    </div>
+    <div class="P2">
+        <br>
+        <br>
+    </div>
+    </div>
+</body>
+</html>

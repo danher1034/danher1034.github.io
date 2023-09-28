@@ -1,0 +1,62 @@
+#divGrande3{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+div>h4{
+  text-align:center;
+}
+div img{
+  margin-left:20px;
+  
+}
+
+.divDent{  
+  margin-top:40px;
+  padding-bottom: 50px;
+}
+
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  background-color: #00c6ff;
+}
+
+
+th, td {
+  padding: 40px;
+  text-align: left;
+  border-bottom: 2px solid #ffffe8;
+  border-right: 2px solid #ffffe8;
+}
+
+
+tr:hover {background-color: #0093ff;}
+
+
+.boton:link, .boton:visited {
+  background-color: #00f9ff;;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display:list-item;
+}
+
+.boton:hover, .boton:active {
+  background-color: #a2ffee;;
+}
+
+
+
+
+/*
+.color1 {color: #0093ff;}
+.color2 {color: #00c6ff;}
+.color3 {color: #00f9ff;}
+.color4 {color: #a2ffee;}
+.color5 {color: #ffffe8;}
+*/

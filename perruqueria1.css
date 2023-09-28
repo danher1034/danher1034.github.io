@@ -1,0 +1,36 @@
+#divGrande{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #a2ffee;
+}
+
+div>h2{ 
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  background-color: #00c6ff;
+}
+
+tr:nth-child(even) {background-color: #a2ffee;}
+
+th {
+	background-color:#0093ff;
+	color: black;
+}
+
+th, td {
+  padding: 40px;
+  text-align: left;
+  border-bottom: 2px solid #ffffe8;
+  border-right: 2px solid #ffffe8;
+}
+
+
+tr:hover,th:hover {background-color: #ffffe8}
+
+

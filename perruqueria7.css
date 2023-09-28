@@ -1,0 +1,40 @@
+
+#divGrande2{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  background-image: url(fondo\ trabajadores.png);
+}
+
+div>h3{
+  text-align: center;
+}
+
+
+div>p{
+  text-align: center;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  background-color: #0093ff;
+}
+
+.divPeque{
+  background-color: #0093ff;
+  margin-top:40px;
+}
+
+
+
+
+
+
+/*
+.color1 {color: #0093ff;}
+.color2 {color: #00c6ff;}
+.color3 {color: #00f9ff;}
+.color4 {color: #a2ffee;}
+.color5 {color: #ffffe8;}
+*/

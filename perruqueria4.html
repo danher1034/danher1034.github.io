@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        fieldset {
+            display: flexbox;
+            text-align: center;
+            padding: 40px 30px;
+        }
+    </style>
+    <title>Entrena+</title>
+    <link rel="icon" type="image/jpg" href="imagenes/3057260.png"/>
+    <link rel="stylesheet" href="peu de pagina.css">
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+    <ul id="Menu">
+        <li><a class="active" href="perruqueria.html">Inicio</a></li>
+        <li><a href="perruqueria2.html">Entrenamientos</a></li>
+        <li><a href="perruqueria3.html">Productos</a></li>
+        <li><a href="perruqueria4.html">Cita</a></li>    
+        <li class="dropdown">
+            <a class="dropbtn">Más...</a>
+            <div class="dropdown-content">
+              <a href="perruqueria6.html"><span class="material-symbols-outlined" style="font-size:15px;">support_agent</span> Contacta con nosotros</a>
+              <a href="perruqueria5.html"><span class="material-symbols-outlined" style="font-size:15px;">policy</span> AVISO LEGAL</a>
+              <a href="perruqueria7.html"><span class="material-symbols-outlined" style="font-size:15px;">groups</span> Trabajadores</a>            
+            </div>
+        </li>           
+    </ul>
+    
+    <div style="padding:20px;margin-top:15px;height:1500px;">
+        
+        <h1 align="center">Cita previa</h1>
+        <form action="procesar_formulario.php" method="POST" enctype="multipart/form-data">
+            <!-- Cambia "procesar_formulario.php" por la URL donde procesarás el formulario -->
+    
+            <fieldset>
+                <label for="fname">Nombre y Apellidos:</label><br>
+                <input type="text" id="fname" name="email" required><br>
+            </fieldset>
+    
+            <fieldset>
+                <label for="fname">Correo de la plataforma:</label><br>
+                <input type="email" id="fname" name="email" required><br>
+            </fieldset>
+    
+            <fieldset>
+                <legend>Mensaje:</legend>
+                <textarea name="message" rows="5" cols="30" required></textarea>
+            </fieldset>
+    
+            <fieldset>
+                <label for="videollamada">Elige el sitio para la videollamada:</label>
+                <select id="videollamada" name="videollamada">
+                    <option value="discord">Discord</option>
+                    <option value="skype">Skype</option>
+                    <option value="teams">Microsoft Teams</option>
+                    <option value="zoom">Zoom</option>
+                </select>
+            </fieldset>
+    
+            <fieldset>
+                <input type="submit" value="Enviar">
+            </fieldset>
+        </form>
+        
+        <div style="margin-top:650px;">
+            <hr>
+        <div class="P2">
+            <br>
+            <img src="DALL·E 2023-02-27 00.22.54 - pon nombre Dani.png" align="left" width="30" height="30" alt="logo">
+            <small id="P1"> &copy;2023<b> Perruqueria Dani </b> Tots els drets reservats </small>
+        </div>
+        <div class="P2">
+            <br>
+            <br>
+        </div>
+        </div>
+
+    </div>
+
+
+</body>
+
+
+
+
+
+</html>

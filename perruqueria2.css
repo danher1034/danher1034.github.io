@@ -1,0 +1,48 @@
+#divGrande2{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+div>h3{
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  background-color: #00c6ff;
+}
+
+.divPeque{
+  background-color: #a2ffee;
+  margin-top:40px;
+  padding-bottom: 50px;
+}
+
+#divGrande3{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.divDent{  
+  margin-top:40px;
+  padding-bottom: 50px;
+}
+
+
+
+
+
+
+
+/*
+.color1 {color: #0093ff;}
+.color2 {color: #00c6ff;}
+.color3 {color: #00f9ff;}
+.color4 {color: #a2ffee;}
+.color5 {color: #ffffe8;}
+*/

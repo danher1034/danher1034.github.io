@@ -1,0 +1,15 @@
+#divAvi {
+	margin:auto;
+	width: 80%;
+	height: 900px;
+	background-image: url('fondo\ avisos.jpg');
+	background-repeat: no-repeat;
+	background-size:cover;
+	border: 40px  ridge rgb(0, 0, 0);
+  border-radius: 12px;
+  padding: 5px;
+  font-family: 'Araial';
+  text-align: center;
+}
+
+
